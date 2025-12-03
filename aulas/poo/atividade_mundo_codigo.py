@@ -14,5 +14,7 @@ taxa_bonus = 0.10
 calcular_bonus = salario_dado + (salario_dado * taxa_bonus)
 
 funcionario_1 = Funcionario(nome_dado ,cargo_dado, salario_dado,calcular_bonus,taxa_bonus,)
-# print('O nome do funcionário é: {}, e o seu cargo é: {}, e o seu salario com o bonus é: {}.'.format(funcionario_1.nome, funcionario_1.cargo, funcionario_1.bonus))
-print('O nome do funcionário é: {}\nSeu cargo é: {}\nO seu salario é: {}\nO salário com o bonus é: {}.'.format(funcionario_1.nome, funcionario_1.cargo,funcionario_1.salario, funcionario_1.bonus))
+print('O nome do funcionário é: {}\nSeu cargo é: {}'
+      '\nO seu salario é: R${}'
+      '\nO salário com o bonus é: R${}.'
+      .format(funcionario_1.nome, funcionario_1.cargo,funcionario_1.salario, funcionario_1.bonus))
