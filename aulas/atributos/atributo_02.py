@@ -10,8 +10,7 @@ class ContadorDeObjetos:
 
     def exibir_contagem(self):
 
-        print(f'Objeto {self.nome} criado. Ttotal geral: ')
-            f'{ContadorDeObjetos.total_objetos}'
+        print('Objeto {} criado. Total geral: {}'.format(self.nome,ContadorDeObjetos.total_objetos))
 
 #Criação de Objetos e execução do Contador:
 objeto_1 = ContadorDeObjetos('Item A')
