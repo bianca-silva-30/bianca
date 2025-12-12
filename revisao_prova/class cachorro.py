@@ -4,6 +4,10 @@ class Cachorro:
         self.nome = nome
         self.raca = raca
         self. idade = idade
+#
+# nome = input('Qual o nome do seu cachorro?')
+# raca = input('Qual a raça do seu cachorro?')
+# idade = input('Qual a idade do seu cachorro?')
 
     # metodo: comportamento/acao
     def latir(self):
